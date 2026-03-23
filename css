@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(11, 116, 21);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+#interessante{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+}
