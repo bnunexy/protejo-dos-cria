@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="style.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="description" content="Ganhe recompensas reciclando seus materiais reutilizaveis">
+       <title>Recicle Já</title>
+      </head>
+      <body>
+        <header>
+        <h1>Bem Vindo(a) ao Recicle Já</h1>
+        <p>Recicle Já, e ganhe recompensas em dinheiro!</p>
+        </header>
+        <main>
+         
+          <!--Sobre o projeto-->
+          <section>
+           <h2>Sobre o nosso projeto</h2>
+           <p>O nosso projeto se consiste em incentivar as pessoas a reciclar através de recompensas
+           <br>em dinheiro, assim sendo uma forma de preservar o meio ambiente e cuidar da natureza
+           <br>concientizando as pessoas através de incentivos e boas ações.</p>
+          </section>
+         
+          <!--Como funciona-->
+          <section>
+            <h2>Como funciona o Recicle Já</h2>
+            <p>através de materiais reciclaveis iremos solicitar que o usuário tire uma foto do descarte
+            <br>que o mesmo fez, assim iremos confirmar que a pessoa fez o descarte e que ela descartou
+            <br>a quantidade e tipos de materiais que foi citado na plataforma.</p>
+          </section>
+               
+          <!--Sistema de Pontuação-->
+          <section>
+            <h2>Sistema de Pontuação</h2>
+            <p>O sitema de Pontuação é baseado em quais materiais que você reciclou,
+            <br>e é baseado tambèm na quantidade que você reciclou. A finalidade dos
+            <br>pontos de reciclagem é você troca-los por dinheiro, milhas, itens,etc.</p>
+          </section>
+               
+          <!--pergunta1: multipla escolha-->
+          <section>
+            <h4>E aí, agora reciclar ficou mais interessante?</h4>
+            <form id="interessante">
+                <input type="radio" value="Muito" id="p1A" name="pergunta1">
+                <label for="p1A">Muito</label>
+                <br><input type="radio" value="Um Pouco" id="p1B" name="pergunta1">
+                <label for="p1B">Um Pouco</label>
+                <br><input type="radio" value="Não Muito" id="p1C" name="pergunta1">
+                <label for="p1C">Não Muito</label>
+                <br><input type="radio" value="Nem Um Pouco" id="p1D" name="pergunta1">
+                <label for="p1D">Nem Um Pouco</label>
+            </form>
+          </section>
+       
+          <!--pergunta2-->
+          <section>
+            <form>
+                <h4>Apesar de você ainda não ter utilizado o nosso aplicativo, nós queremos que você
+                <br>dê sua opiniãosobre o que acha da proposta do nosso aplicativo</h4>
+                <input type="text" id="Per2" name="Pergunta2" placeholder="Digite sua resposta aqui">
+            </form>
+          </section>
+
+
+
+
+          <!---->
+        </main>
+      </body>
+    <html>
